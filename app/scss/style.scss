@@ -213,7 +213,6 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
-            padding: 25px 25px 25px 25px;
             position: absolute;
             left: 0;
             top: 0;
@@ -250,7 +249,6 @@
             justify-content: center;
             align-items: center;
             gap: 20px 0;
-            padding: 25px 25px 25px 25px;
             position: absolute;
             left: 0;
             top: 0;
@@ -583,6 +581,8 @@
     background: #FFF;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
     margin: 0 22px;
+    @include adaptiv-value("margin-left", 22, 5, 1);
+    @include adaptiv-value("margin-right", 22, 5, 1);
 }
     &__item-img{
         padding: 38px 0 20px;
@@ -680,11 +680,16 @@
         text-align: center;
         padding: 0px 20px;
         margin-left: 20px;
+        @include adaptiv-value("margin-left", 20, 5, 1);
         @include adaptiv-value("width", 350, 280, 1);
     }
     &__item-img {
-        padding-top: 40px;
-        margin: 0 auto;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 40px auto 0;
+        @include adaptiv-value("margin-top", 40, 20, 1);
     }
     &__item-name {
         font-size: 25px;
@@ -804,6 +809,8 @@
     &__item-img {
         width: 290px;
         height: 340px;
+        object-fit: cover;
+        border-radius: 30px;
         grid-row: 1 / 2;
         grid-column: 1 / 2;
         place-self: end center;
@@ -1125,7 +1132,7 @@
         @include adaptiv-value("width", 400, 280, 1);
     }
     &__list-content{
-        @include adaptiv-value("padding-top", 70, 10, 1);
+        @include adaptiv-value("padding-top", 70, 15, 1);
         @include adaptiv-value("padding-left", 40, 5, 1);
         @include adaptiv-value("padding-right", 35, 5, 1);
     }
@@ -1320,6 +1327,7 @@
 
 .treatment-cards__prevention{
     max-width: 215px;
+    hyphens: auto;
 }
 
 .surgery__text, .prevention__text, .cipap__text {
