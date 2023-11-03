@@ -214,10 +214,12 @@
 }
 
 @media (max-width: 800px) {
-    .menu{
-        &__list-link {
+    .header {
+        &__menu{
+            &__list-link {
             font-size: 15px;
             align-self: center;
+            }
         }
     }
     .message-btn {
