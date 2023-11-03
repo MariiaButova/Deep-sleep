@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Волинський центр діагностики та лікування хропіння та синдрому обструктивного апное сну</title>
+  <title>СІПАП терапія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
-    <link href="/app/images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -18,35 +18,49 @@
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo" href="index.html">
-                    <img class="logo header__logo-img" src="/app/images/header__logo.png" alt="Лого міцний сон">
+                    <img class="logo header__logo-img" src="images/header__logo.png" alt="Лого міцний сон">
                 </a>
                 <nav class="menu header__menu">
                     <button class="menu__btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span class="btn-close btn-close__top"></span>
+                        <span class="btn-open"></span>
+                        <span class="btn-open"></span>
+                        <span class="btn-open"></span>
+                        <span class="btn-close btn-close__bottom"></span>
                     </button>
                     <ul class="menu__list header__menu-list">
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="index.html">Про нас</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="index.html">Про нас</a>
                         </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="doctors.html">Лікарі</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="doctors.html">Лікарі</a>
                         </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="diagnostic.html">Діагностика</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="diagnostic.html">Діагностика</a>
                         </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="treatment.html">Лікування</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link menu__list-link--active" href="treatment.html">Лікування</a>
                         </li>
                     </ul>
                 </nav>
-                <button class="button header__button">Консультація лікаря</button>
-                <a class="btn__message" href="#">
-                    <img class="btn__message-icon" src="/app/images/message-icon.svg" alt="">
-                </a>
+                <label class="main-button header__button">
+                    <span class="main-button__title header__button-title">консультація лікаря</span>
+                    <input class="main-button__input" type="checkbox">
+                    <ul class="main-button__list header__button-list">
+                        <li class="main-button__item header__button-item">
+                            <a class="main-button__link header__button-link" href="https://t.me/anton240299">Telegram</a>
+                        </li>
+                        <li class="main-button__item header__button-item">
+                            <a class="main-button__link header__button-link" href="viber://chat?number=%2B380509991792">Viber</a>
+                        </li>
+                        <li class="main-button__item header__button-item">
+                            <a class="main-button__link header__button-link" href="tel:+380509991792">+380509991792</a>
+                        </li>
+                    </ul>
+                    <button class="message-btn">
+                        <img src="images/message-icon.svg" alt="Іконка написати лікарю" class="btn__message-icon">
+                    </button>
+                </label>
             </div>
         </div>
     </header>
@@ -55,7 +69,7 @@
             <div class="container">
                 <div class="content__inner cipap-intro__inner">
                     <h1 class="content__headline cipap-intro__title">СІПАП терапія</h1>
-                    <img class="cipap-intro__img" src="/app/images/cipap-terapy-img.png" alt="Жінка що проходить СІПАП терапію">
+                    <img class="cipap-intro__img" src="images/cipap-terapy-img.png" alt="Жінка що проходить СІПАП терапію">
                     <div class="content__info cipap-intro__info">
                         <p class="content__text cipap-intro__text">В даний час <span class="cipap-intro__words">СІПАП-терапія</span> є загальновизнаним та <span class="cipap-intro__words">основним методом</span> лікування зупинок дихання уві сні середнього та тяжкого ступеня. <span class="cipap-intro__words">Ефективність та безпека</span> СІПАП-терапії підтверджені численними дослідженнями, а також майже <span class="cipap-intro__words">40-річним досвідом</span> клінічного застосування даного методу у понад <span class="cipap-intro__words">50 мільйонів</span> пацієнтів по всьому світу.</p>
                     </div>
@@ -70,7 +84,7 @@
                         <div class="mechanism__item">
                             <div class="mechanism__item-content">
                                 <p class="mechanism__item-num">01.</p>
-                                <img class="mechanism__item-img" src="/app/images/mechanism-first.png" alt="Людина з відкритими дихальними шляхами">
+                                <img class="mechanism__item-img" src="images/mechanism-first.png" alt="Людина з відкритими дихальними шляхами">
                             </div>
                             <p class="mechanism__item-name">Дихання в нормі.</p>
                             <p class="mechanism__item-name">Дихальні шляхи відкриті</p>
@@ -78,14 +92,14 @@
                         <div class="mechanism__item">
                             <div class="mechanism__item-content">
                                 <p class="mechanism__item-num">02.</p>
-                                <img class="mechanism__item-img" src="/app/images/mechanism-second.png" alt="Людина зі спадои дихальних шляхів">
+                                <img class="mechanism__item-img" src="images/mechanism-second.png" alt="Людина зі спадои дихальних шляхів">
                             </div>
                             <p class="mechanism__item-name">Спад дихальних шляхів при обструктивному апное</p>
                         </div>
                         <div class="mechanism__item">
                             <div class="mechanism__item-content">
                                 <p class="mechanism__item-num">03.</p>
-                                <img class="mechanism__item-img" src="/app/images/mechanism-third.png" alt="Людина зі СПАП апаратом"></div>
+                                <img class="mechanism__item-img" src="images/mechanism-third.png" alt="Людина зі СПАП апаратом"></div>
                             <p class="mechanism__item-name">Позитивний тиск перешкоджає спаду дихальних шляхів</p>
                         </div>
                     </div>
@@ -97,7 +111,7 @@
                 <div class="indication__inner">
                     <div class="cipap-content__inner indication__info">
                         <h3 class="cipap-content__title indication__title">Показання до СІПАП-терапії:</h3>
-                        <img class="indication__img" src="/app/images/cipap-indication.png" alt="Чоловік що проходить СІПАП терапію">
+                        <img class="indication__img" src="images/cipap-indication.png" alt="Чоловік що проходить СІПАП терапію">
                         <ul class="indication__list">
                             <li class="indication__item">
                                 <p class="indication__item-title">Тяжкий ступінь сонного апное</p>
@@ -136,16 +150,18 @@
                             </li>
                         </ul>
                     </div>
-                    <img class="advantages__img" src="/app/images/advanteges.png" alt="Переваги СІПАП-терапії">
+                    <img class="advantages__img" src="images/advanteges.png" alt="Переваги СІПАП-терапії">
                 </div>
             </div>
         </section>
         <section class="device">
             <div class="container">
                 <div class="device__inner">
-                    <h4 class="cipap-content__title device__info-title">Апарати СІПАП</h4>
+                    <div class="device__title-inner">
+                        <h4 class="cipap-content__title device__info-title">Апарати СІПАП</h4>
+                    </div>
                     <p class="device__info-text">В наш час на ринку представлено багато моделей апаратів СІПАП (також BPAP, Auto-CPAP та інші модифікації) великої кількості компаній-виробників. Розглянемо на прикладі G2S CPAP System як вони працюють та які в них особливості:</p>
-                    <img class="device__img" src="/app/images/cpap.png" alt="СІПАП апарат">
+                    <img class="device__img" src="images/cpap.png" alt="СІПАП апарат">
                 </div>
             </div>
         </section>
@@ -173,10 +189,10 @@
                         </div>
                     </div>
                     <div class="settings__list-images">
-                        <img class="settings__list-img cipap-front" src="/app/images/cipap-setting-2.png" alt="СІПАП апарат спереду">
-                        <img class="settings__list-img cipap-back" src="/app/images/cipap-setting-3.png" alt="СІПАП апарат ззаду">
-                        <img class="settings__list-img cipap-inside" src="/app/images/cipap-setting-1.png" alt="СІПАП апарат всередині">
-                        <img class="settings__list-img cipap-block" src="/app/images/cipap-setting-4.png" alt="СІПАП апарат з блоком живлення">
+                        <img class="settings__list-img cipap-front" src="images/cipap-setting-2.png" alt="СІПАП апарат спереду">
+                        <img class="settings__list-img cipap-back" src="images/cipap-setting-3.png" alt="СІПАП апарат ззаду">
+                        <img class="settings__list-img cipap-inside" src="images/cipap-setting-4.png" alt="СІПАП апарат всередині">
+                        <img class="settings__list-img cipap-block" src="images/cipap-setting-1.png" alt="СІПАП апарат з блоком живлення">
                     </div>
                     <div class="settings__list">
                         <div class="settings__item">
@@ -201,7 +217,7 @@
             <div class="container">
                 <h3 class="cipap-content__title care__title">Догляд, та очистка СІПАП апарату</h3>
                 <div class="cipap-content__inner care__inner">
-                    <img class="care__image" src="/app/images/cleaning.png" alt="Засоби для очистки та догляду">
+                    <img class="care__image" src="images/cleaning.png" alt="Засоби для очистки та догляду">
                     <ul class="care__list">
                         <li class="care__list-item care__list-item--ventilator">
                             Назальна маска та система видиху підлягають щоденному очищенню післявикористання
@@ -237,7 +253,7 @@
             <div class="footer__inner">
                 <div class="footer__info">
                     <a class="footer__logo" href="index.html">
-                        <img class="logo footer__logo-img" src="/app/images/footer__logo.png" alt="Лого міцний сон">
+                        <img class="logo footer__logo-img" src="images/footer__logo.png" alt="Лого міцний сон">
                     </a>
                     <nav class="menu footer__menu">
                         <ul class="menu__list footer__menu-list">
@@ -257,7 +273,6 @@
                     </nav>
                     <div class="footer__contacts">
                         <a class="footer__contacts-item footer__contacts-tel" href="tel:+380509991792">+380509991792</a>
-                        <a class="footer__contacts-item footer__contacts-email" href="candelsCandels@gmail.com">candelsCandels@gmail.com</a>
                     </div>
                 </div>
                 <div class="copyright">Copyright © 2022 BRIX Templates | All Rights Reserved</div>

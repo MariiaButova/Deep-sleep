@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Лікарі</title>
+  <title>Хірургічне лікування</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
-    <link href="/app/images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -18,38 +18,49 @@
             <div class="container">
                 <div class="header__inner">
                     <a class="header__logo" href="index.html">
-                        <img class="logo header__logo-img" src="/app/images/header__logo.png" alt="Лого міцний сон">
+                        <img class="logo header__logo-img" src="images/header__logo.png" alt="Лого міцний сон">
                     </a>
                     <nav class="menu header__menu">
                         <button class="menu__btn">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
+                            <span class="btn-close btn-close__top"></span>
+                            <span class="btn-open"></span>
+                            <span class="btn-open"></span>
+                            <span class="btn-open"></span>
+                            <span class="btn-close btn-close__bottom"></span>
                         </button>
                         <ul class="menu__list header__menu-list">
-                            <li class="mune__list-item">
-                                <a class="menu__list-link" href="index.html">Про нас</a>
+                            <li class="mune__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link" href="index.html">Про нас</a>
                             </li>
-                            <li class="mune__list-item">
-                                <a class="menu__list-link" href="doctors.html">Лікарі</a>
+                            <li class="mune__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link" href="doctors.html">Лікарі</a>
                             </li>
-                            <li class="mune__list-item">
-                                <a class="menu__list-link" href="diagnostic.html">Діагностика</a>
+                            <li class="mune__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link" href="diagnostic.html">Діагностика</a>
                             </li>
-                            <li class="mune__list-item">
-                                <a class="menu__list-link menu__list-link--active" href="treatment.html">Лікування</a>
-                            </li>
-                            <li class="mune__list-item">
-                                <a class="menu__list-link" href="cipap.html">СІПАП терапія</a>
+                            <li class="mune__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link menu__list-link--active" href="treatment.html">Лікування</a>
                             </li>
                         </ul>
                     </nav>
-                    <button class="button header__button">Консультація лікаря</button>
-                    <a class="btn__message" href="#">
-                        <img class="btn__message-icon" src="/app/images/message-icon.svg" alt="">
-                    </a>
+                    <label class="main-button header__button">
+                        <span class="main-button__title header__button-title">консультація лікаря</span>
+                        <input class="main-button__input" type="checkbox">
+                        <ul class="main-button__list header__button-list">
+                            <li class="main-button__item header__button-item">
+                                <a class="main-button__link header__button-link" href="https://t.me/anton240299">Telegram</a>
+                            </li>
+                            <li class="main-button__item header__button-item">
+                                <a class="main-button__link header__button-link" href="viber://chat?number=%2B380509991792">Viber</a>
+                            </li>
+                            <li class="main-button__item header__button-item">
+                                <a class="main-button__link header__button-link" href="tel:+380509991792">+380509991792</a>
+                            </li>
+                        </ul>
+                        <button class="message-btn">
+                            <img src="images/message-icon.svg" alt="Іконка написати лікарю" class="btn__message-icon">
+                        </button>
+                    </label>
                 </div>
             </div>
         </header>
@@ -77,10 +88,10 @@
                                 <li class="operation__list-item">Розсмоктуючий носовий імплант Latera</li>
                                 <li class="operation__list-item">Припікання бокових стінок носа (технологія VivAer)</li>
                             </ul>
-                            <div class="surgery-nose__img">
-                                <img src="/app/images/surgery-nose-1.png" alt="Фото до та після септопластики">
-                                <img src="/app/images/surgery-nose-2.png" alt="Фото до та після ринопластики">
-                                <img src="/app/images/surgery-nose-3.png" alt="Носовий імплант Latera">
+                            <div class="surgery-nose__images">
+                                <img class="operation__img surgery-nose__img" src="images/surgery-nose-1.jpg" alt="Фото до та після септопластики">
+                                <img class="operation__img surgery-nose__img" src="images/surgery-nose-2.jpg" alt="Фото до та після ринопластики">
+                                <img class="operation__img surgery-nose__img" src="images/surgery-nose-3.jpg" alt="Носовий імплант Latera">
                             </div>
                         </div>
                     </div>
@@ -105,9 +116,10 @@
                                 <li class="operation__list-item surgery-mouth__item">Процедура Pillar</li>
                                 <li class="operation__list-item surgery-mouth__item">Елевопластика</li>
                             </ul>
-                            <div class="surgery-mouth__img">
-                                <img src="/app/images/surgery-mouth-1.png" alt="Фото до та після тонзилектомії">
-                                <img src="/app/images/surgery-mouth-2.png" alt="Процедура Pillar">
+                            <div class="surgery-mouth__images">
+                                <img class="operation__img surgery-mouth__img" src="images/surgery-mouth-1.png" alt="Процедура Pillar">
+                                <img class="operation__img surgery-mouth__img" src="images/surgery-mouth-2.jpg" alt="Увулопалатопластика">
+                                <img class="operation__img surgery-mouth__img" src="images/surgery-mouth-3.jpg" alt="Аденотомія">
                             </div>
                         </div>
                     </div>
@@ -121,18 +133,19 @@
                             <ul class="operation__list surgery-neck__list">
                                 <li class="operation__list-item surgery-neck__item">Кобляція кореня язика</li>
                                 <li class="operation__list-item surgery-neck__item">Лінгвальна тонзилектомія</li>
-                                <li class="operation__list-item">Серединна часткова глосектомія та підслизова лінгвопластика</li>
-                                <li class="operation__list-item">Підтяжка підбородочно-язикового мяза</li>
-                                <li class="operation__list-item">Підтяжка підбородочно-підязикового мязу</li>
+                                <li class="operation__list-item">Серединна часткова глосектомія та підслизова гінгівопластика</li>
+                                <li class="operation__list-item">Підтяжка підборідно-язикового м'яза</li>
+                                <li class="operation__list-item">Підтяжка підборідно-під'язикового м'яза</li>
                                 <li class="operation__list-item">Максило-мандибулярне висування</li>
                                 <li class="operation__list-item surgery-neck__item">Епіглотпласика або епіглотпексія</li>
                                 <li class="operation__list-item surgery-neck__item">Епіглотектомія</li>
-                                <li class="operation__list-item">Підязикова міотомія та підвішувсання підязикової кістки</li>
+                                <li class="operation__list-item">Під'язикова міотомія та підвішування під'язикової кістки</li>
                                 <li class="operation__list-item">Стимуляція верхніх дихальних шляхів</li>
                             </ul>
-                            <div class="surgery-neck__img">
-                                <img src="/app/images/surgery-neck-1.png" alt="Підтяжка підбородочно-підязикового мязу">
-                                <img src="/app/images/surgery-neck-2.png" alt="Стимуляція верхніх дихальних шляхів">
+                            <div class="surgery-neck__images">
+                                <img class="operation__img" src="images/surgery-neck-1.png" alt="Підтяжка підборідно-під'язикового м'яза">
+                                <img class="operation__img" src="images/surgery-neck-2.png" alt="Стимуляція верхніх дихальних шляхів">
+                                <img class="operation__img" src="images/surgery-neck-3.png" alt="Кобляція кореня язика">
                             </div>
                         </div>
                     </div>
@@ -141,12 +154,12 @@
             <section class="terapy">
                 <div class="container">
                     <div class="terapy__inner">
+                        <h2 class="terapy__title">Терапія шляхом стимуляції верхніх дихальних шляхів</h2>
+                        <img class="terapy__img" src="images/terapy-img.png" alt="Анатомія людини з електричним приладом">
                         <div class="terapy__content">
-                            <h2 class="terapy__title">Терапія шляхом стимуляції верхніх дихальних шляхів</h2>
                             <p class="terapy__text">Механізм дії даного методу лікування ґрунтується на стимуляції під'язикового нерва та його гілок, що викликає підвищення тонусу дихальної мускулатури і не дає спадатися верхнім дихальним шляхам.</p>
                             <p class="terapy__text">Прилад є генератором імпульсів, який вживлюється під шкіру підключичної області пацієнта; кабель з електродами, що закріплюється навколо під'язичного нерва; у деяких моделях передбачений другий електрод, який може стимулювати діафрагму за наявності центральних апное; бездротовий пульт керування та індукційний зарядний пристрій.</p>
                         </div>
-                        <img class="terapy__img" src="/app/images/terapy-img.png" alt="Анатомія людини з електричним приладом">
                     </div>
                 </div>
             </section>
@@ -154,7 +167,21 @@
                 <div class="container">
                     <div class="additional-info__inner">
                         <p class="additional-info__text">Важливим аспектом успішного хірургічного лікування є правильний вибір методу операції, який враховує показники та протипоказники, а також індивідуальні особливості кожного пацієнта. Консультація лікаря є ключовим моментом у підготовці та проведенні хірургічного втручання.</p>
-                        <button class="button">Консультація лікаря</button>
+                        <label class="main-button">
+                            <span class="main-button__title">консультація лікаря</span>
+                            <input class="main-button__input" type="checkbox">
+                            <ul class="main-button__list">
+                                <li class="main-button__item">
+                                    <a class="main-button__link" href="https://t.me/anton240299">Telegram</a>
+                                </li>
+                                <li class="main-button__item">
+                                    <a class="main-button__link" href="viber://chat?number=%2B380509991792">Viber</a>
+                                </li>
+                                <li class="main-button__item">
+                                    <a class="main-button__link" href="tel:+380509991792">+380509991792</a>
+                                </li>
+                            </ul>
+                        </label>
                     </div>
                 </div>
             </div>
@@ -164,7 +191,7 @@
                 <div class="footer__inner">
                     <div class="footer__info">
                         <a class="footer__logo" href="index.html">
-                            <img class="logo footer__logo-img" src="/app/images/footer__logo.png" alt="Лого міцний сон">
+                            <img class="logo footer__logo-img" src="images/footer__logo.png" alt="Лого міцний сон">
                         </a>
                         <nav class="menu footer__menu">
                             <ul class="menu__list footer__menu-list">
@@ -184,7 +211,6 @@
                         </nav>
                         <div class="footer__contacts">
                             <a class="footer__contacts-item footer__contacts-tel" href="tel:+380509991792">+380509991792</a>
-                            <a class="footer__contacts-item footer__contacts-email" href="candelsCandels@gmail.com">candelsCandels@gmail.com</a>
                         </div>
                     </div>
                     <div class="copyright">Copyright © 2022 BRIX Templates | All Rights Reserved</div>

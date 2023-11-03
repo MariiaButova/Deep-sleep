@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Montserrat:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet">
-    <link href="/app/images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -18,51 +18,49 @@
         <div class="container">
             <div class="header__inner">
                 <a class="header__logo" href="index.html">
-                    <img class="logo header__logo-img" src="/app/images/header__logo.png" alt="Лого міцний сон">
+                    <img class="logo header__logo-img" src="images/header__logo.png" alt="Лого міцний сон">
                 </a>
                 <nav class="menu header__menu">
                     <button class="menu__btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span class="btn-close btn-close__top"></span>
+                        <span class="btn-open"></span>
+                        <span class="btn-open"></span>
+                        <span class="btn-open"></span>
+                        <span class="btn-close btn-close__bottom"></span>
                     </button>
                     <ul class="menu__list header__menu-list">
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="index.html">Про нас</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link menu__list-link--active" href="index.html">Про нас</a>
                         </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="doctors.html">Лікарі</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="doctors.html">Лікарі</a>
                         </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="diagnostic.html">Діагностика</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="diagnostic.html">Діагностика</a>
                         </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link menu__list-link--active" href="treatment.html">Лікування</a>
-                        </li>
-                        <li class="mune__list-item">
-                            <a class="menu__list-link" href="cipap.html">СІПАП терапія</a>
+                        <li class="mune__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="treatment.html">Лікування</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="main-button header__button">
-                    <span class="main-button__title">консультація лікаря</span>
-                    <ul class="main-button__list">
-                        <li class="main-button__item">
-                            <a class="main-button__link" href="https://t.me/anton240299">Telegram</a>
+                <label class="main-button header__button">
+                    <span class="main-button__title header__button-title">консультація лікаря</span>
+                    <input class="main-button__input" type="checkbox">
+                    <ul class="main-button__list header__button-list">
+                        <li class="main-button__item header__button-item">
+                            <a class="main-button__link header__button-link" href="https://t.me/anton240299">Telegram</a>
                         </li>
-                        <li class="main-button__item">
-                            <a class="main-button__link" href="viber://chat?number=%2B0509991792">Viber</a>
+                        <li class="main-button__item header__button-item">
+                            <a class="main-button__link header__button-link" href="viber://chat?number=%2B380509991792">Viber</a>
                         </li>
-                        <li class="main-button__item">
-                            <a class="main-button__link" href="tel:+380509991792">+380509991792</a>
+                        <li class="main-button__item header__button-item">
+                            <a class="main-button__link header__button-link" href="tel:+380509991792">+380509991792</a>
                         </li>
                     </ul>
-                </div>
-                <a class="btn__message" href="#">
-                    <img src="/app/images/message-icon.svg" alt="Іконка написати лікарю" class="btn__message-icon">
-                </a>
+                    <button class="message-btn">
+                        <img src="images/message-icon.svg" alt="Іконка написати лікарю" class="btn__message-icon">
+                    </button>
+                </label>
             </div>
         </div>
     </header>
@@ -70,8 +68,8 @@
       <section class="intro">
           <div class="container">
                 <div class="intro__inner">
-                    <h1 class="intro__title"><span class="main-words">Волинський центр</span> діагностики та <span class="main-words">лікування хропіння</span> та синдрому обструктивного <span class="main-words">апное сну</span> (СОАС)</h1>
-                    <img class="intro__img" src="/app/images/intro__img.png" alt="Лікар та послуги що надає">
+                    <h1 class="intro__title"><span class="main-words">Волинський</span> центр діагностики та <span class="main-words">лікування хропіння</span> та синдрому обструктивного <span class="main-words">апное сну</span> (СОАС)</h1>
+                    <img class="intro__img" src="images/intro__img.png" alt="Лікар та послуги що надає">
                     <p class="intro__text">працює над забезпеченням наших пацієнтів індивідуальним, високоефективним та безпечним лікуванням. Ми віримо, що кожен заслуговує на якісний сон і здоров'я, і ми готові допомогти вам у цьому.</p>
             </div>
           </div>
@@ -130,23 +128,23 @@
                   </div>
                   <div class="cards diagnostic__list">
                       <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="/app/images/symptoms-icon.svg" alt="Іконка з листом скарг пацієнта">
+                          <img class="cards__item-img diagnostic__item-img" src="images/symptoms-icon.svg" alt="Іконка з листом скарг пацієнта">
                           <p class="cards__item-name diagnostic__item-name">Скарги пацієнта</p>
                       </div>
                       <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diacards__item-img gnostic__item-img" src="/app/images/viewing-icon.svg" alt="Іконга фізичного огляду пацієнта">
+                          <img class="cards__item-img diagnostic__item-img" src="images/viewing-icon.svg" alt="Іконга фізичного огляду пацієнта">
                           <p class="cards__item-name diagnostic__item-name">Фізичний огляд</p>
                       </div>
                       <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="/app/images/test-icon.svg" alt="Іконка тест">
+                          <img class="cards__item-img diagnostic__item-img" src="images/test-icon.svg" alt="Іконка тест">
                           <p class="cards__item-name diagnostic__item-name">Тести на ризик наявності СОАС</p>
                       </div>
                       <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="/app/images/diadnostic-icon.svg" alt="Іконка інструментальної діагностики">
+                          <img class="cards__item-img diagnostic__item-img" src="images/diadnostic-icon.svg" alt="Іконка інструментальної діагностики">
                           <p class="cards__item-name diagnostic__item-name">Інструментальна діагностика</p>
                       </div>
                       <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="/app/images/sleependoscopy-icon.svg" alt="Іконка сліпендоскопії">
+                          <img class="cards__item-img diagnostic__item-img" src="images/sleependoscopy-icon.svg" alt="Іконка сліпендоскопії">
                           <p class="cards__item-name diagnostic__item-name">Сліпендоскопія</p>
                       </div>
                   </div>
@@ -160,15 +158,15 @@
                   <p class="treatment__text">Наш центр практикує ефективні методи лікування хропіння, включаючи:</p>
                   <div class="treatment__list">
                       <div class="treatment__list-item">
-                          <img class="treatment__item-img" src="/app/images/cipap.jpg" alt="СІПАП терапія">
+                          <img class="treatment__item-img" src="images/cipap.jpg" alt="СІПАП терапія">
                           <p class="treatment__item-name">СІПАП терапія</p>
                       </div>
                       <div class="treatment__list-item">
-                          <img class="treatment__item-img" src="/app/images/prevention.jpg" alt="Лікар що призначає лікування пацієнтові">
+                          <img class="treatment__item-img" src="images/prevention.jpg" alt="Лікар що призначає лікування пацієнтові">
                           <p class="treatment__item-name">Загальнопрофілактичні заходи</p>
                       </div>
                       <div class="treatment__list-item">
-                          <img class="treatment__item-img" src="/app/images/surgery.jpg" alt="Лікарі проводять хірургічне лікування">
+                          <img class="treatment__item-img" src="images/surgery.jpg" alt="Лікарі проводять хірургічне лікування">
                           <p class="treatment__item-name">Хірургічне лікування</p>
                       </div>
                   </div>
@@ -178,43 +176,48 @@
       <section class="team">
           <div class="container">
               <div class="team__inner">
-                  <h3 class="team__title">Наші лікарі</h3>
+                <h3 class="team__title">Наші лікарі</h3>
                   <p class="team__text"></p>
                   <div class="team__list">
                       <div class="team__list-item">
-                          <img class="team__item-img" src="/app/images/doctor.png" alt="Фото лікаря">
+                        <div class="team__image-box">
+                            <img class="team__item-img" src="images/team-doctor__1.png" alt="Фото лікаря">
+                        </div>
                           <p class="team__item-name">Щурук Георгій Зіновійович</p>
                           <p class="team__item-specialty">Отоларинголог</p>
                           <p class="team__item-text">Володіє сучасними методами діагностики і лікування ЛОР-хворих. Володіє технікою всіх типових і атипових ЛОР-операцій.</p>
                       </div>
                       <div class="team__list-item">
-                          <img class="team__item-img" src="/app/images/doctor.png" alt="Фото лікаря">
+                        <div class="team__image-box">
+                            <img class="team__item-img" src="images/team-doctor__2.png" alt="Фото лікаря">
+                        </div>
                           <p class="team__item-name">Щурук Антон Георгійович</p>
                           <p class="team__item-specialty">Отоларинголог</p>
                           <p class="team__item-text">Володіє сучасними методами діагностики та лікування СОАС та синдрому хропіння.</p>
                           <p>Володіє технікою всіх типових і атипових ЛОР-операцій.</p>
                       </div>
                       <div class="team__list-item">
-                          <img class="team__item-img" src="/app/images/doctor.png" alt="Фото лікаря">
+                          <img class="team__item-img" src="images/team-doctor__3.png" alt="Фото лікаря">
                           <p class="team__item-name">Щурук Олександр Зіновійович</p>
                           <p class="team__item-specialty">Отоларинголог</p>
                           <p class="team__item-text">Висококваліфікований лікар з багаторічним досвідом. Активно підвищує свій професійний рівень через участь у міжнародних конференціях і стажуваннях</p>
                       </div>
                   </div>
-                  <div class="main-button heder">
+                  <label class="main-button">
                     <span class="main-button__title">консультація лікаря</span>
+                    <input class="main-button__input" type="checkbox">
                     <ul class="main-button__list">
                         <li class="main-button__item">
                             <a class="main-button__link" href="https://t.me/anton240299">Telegram</a>
                         </li>
                         <li class="main-button__item">
-                            <a class="main-button__link" href="viber://chat?number=%2B0509991792">Viber</a>
+                            <a class="main-button__link" href="viber://chat?number=%2B380509991792">Viber</a>
                         </li>
                         <li class="main-button__item">
                             <a class="main-button__link" href="tel:+380509991792">+380509991792</a>
                         </li>
                     </ul>
-                </div>
+                </label>
               </div>
           </div>
       </section>
@@ -224,7 +227,7 @@
               <div class="footer__inner">
                   <div class="footer__info">
                       <a class="footer__logo" href="index.html">
-                          <img class="logo footer__logo-img" src="/app/images/footer__logo.png" alt="Лого міцний сон">
+                          <img class="logo footer__logo-img" src="images/footer__logo.png" alt="Лого міцний сон">
                       </a>
                       <nav class="menu footer__menu">
                           <ul class="menu__list footer__menu-list">
@@ -243,11 +246,16 @@
                           </ul>
                       </nav>
                       <div class="footer__contacts">
-                          <a class="footer__contacts-item footer__contacts-tel" href="tel:+380509991792">+380509991792</a>
-                          <a class="footer__contacts-item footer__contacts-email" href="candelsCandels@gmail.com">candelsCandels@gmail.com</a>
+                        <div class="footer__contacts-item">
+                            <a class="footer__contacts-tel" href="tel:+380509991792">+380509991792</a>
+                        </div>
+                        <div class="footer__contacts-item">
+                            <a class="footer__contacts-telegram" href="https://t.me/anton240299">Telegram</a>
+                        </div>
+                          
                       </div>
                   </div>
-                  <div class="copyright">Copyright © 2022 BRIX Templates | All Rights Reserved</div>
+                  <div class="copyright">Copyright © 2023 | All Rights Reserved</div>
               </div>
           </div>
       </footer>
