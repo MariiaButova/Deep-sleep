@@ -17,9 +17,6 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <a class="header__logo" href="index.html">
-                        <img class="logo header__logo-img" src="images/header__logo.png" alt="Лого міцний сон">
-                    </a>
                     <nav class="menu header__menu">
                         <button class="menu__btn">
                             <span class="btn-close btn-close__top"></span>
@@ -29,18 +26,27 @@
                             <span class="btn-close btn-close__bottom"></span>
                         </button>
                         <ul class="menu__list header__menu-list">
-                            <li class="mune__list-item header__menu-item">
-                                <a class="menu__list-link header__menu-link" href="index.html">Про нас</a>
+                            <li class="menu__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link menu__list-link--active" href="index.html">Про нас</a>
                             </li>
-                            <li class="mune__list-item header__menu-item">
-                                <a class="menu__list-link header__menu-link" href="doctors.html">Лікарі</a>
+                            <li class="menu__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link" href="diagnostic.html">Діагностика</a>
                             </li>
-                            <li class="mune__list-item header__menu-item">
-                                <a class="menu__list-link header__menu-link menu__list-link--active" href="diagnostic.html">Діагностика</a>
+                            <li class="menu__list-item header__menu-item">
+                                <a class="menu__list-link header__menu-link" href="#">Лікування</a>
+                                <ul class="menu__treatment-list">
+                                    <li class="menu__treatment-item">
+                                        <a class="menu__treatment-link" href="prevention.html">Загальнопрофілактичні заходи</a>
+                                    </li>
+                                    <li class="menu__treatment-item">
+                                        <a class="menu__treatment-link" href="surgery.html">Хірургічне лікування</a>
+                                    </li>
+                                    <li class="menu__treatment-item">
+                                        <a class="menu__treatment-link" href="cipap.html">СІПАП-терапія</a>
+                                    </li>
+                                  </ul>
                             </li>
-                            <li class="mune__list-item header__menu-item">
-                                <a class="menu__list-link header__menu-link" href="treatment.html">Лікування</a>
-                            </li>
+                            
                         </ul>
                     </nav>
                     <label class="main-button header__button">
@@ -65,34 +71,9 @@
             </div>
         </header>
         <main>
-            <section class="diagnostic-intro">
+            <section class="diagnostic-cards">
                 <div class="container">
-                    <div class="diagnostic-intro__inner">
-                        <h1 class="diagnostic-intro__title">Діагностика</h1>
-                        <img class="diagnostic-intro__img" src="images/diagnostic-intro.png" alt="Консультація в лікаря">
-                        <div class="diagnostic-intro__info">
-                            <p class="diagnostic-intro__text">Діагностика хропіння – це важливий етап у встановленні правильного діагнозу та виборі оптимального лікування для пацієнтів. Наша мета – це врахування багатьох чинників, таких як локалізація звуку, інтенсивність, час появи та інші аспекти.</p>
-                            <label class="main-button">
-                                <span class="main-button__title">консультація лікаря</span>
-                                <input class="main-button__input" type="checkbox">
-                                <ul class="main-button__list">
-                                    <li class="main-button__item">
-                                        <a class="main-button__link" href="https://t.me/anton240299">Telegram</a>
-                                    </li>
-                                    <li class="main-button__item">
-                                        <a class="main-button__link" href="viber://chat?number=%2B380509991792">Viber</a>
-                                    </li>
-                                    <li class="main-button__item">
-                                        <a class="main-button__link" href="tel:+380509991792">+380509991792</a>
-                                    </li>
-                                </ul>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="diagnostic-cards">
-                <div class="container">
+                    <h1 class="diagnostic-cards__title">Діагностика</h1>
                     <div class="cards diagnostic__list">
                         <div class="cards__item diagnostic__item">
                             <img class="cards__item-img diagnostic__item-img" src="images/symptoms-icon.svg" alt="Іконка папера з скаргами пацієнта">
@@ -116,30 +97,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <section class="complaints">
-                <div class="container">
-                    <div class="content__inner complaints__inner">
-                        <img class="complaints__img" src="images/complains.png" alt="Консультація в лікаря">
-                        <h3 class="subtitle complaints__subtitle">Скарги пацієнта</h3>
-                        <div class="content__info complaints__info">
-                            <p class="content__headline complaints__title">Ваше здоров'я - пріоритет.</p>
-                            <p class="content__text complaints__text">Своєчасна і точна інформація про ваші симптоми є надзвичайно важливою для правильної діагностики та надання вам належної медичної допомоги.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="viewing">
-                <div class="container">
-                    <div class="content__inner viewing__inner">
-                        <img class="viewing__img" src="images/viewing.png" alt="Фізичний огляд пацієнта">
-                        <h3 class="subtitle viewing__subtitle">Фізичний огляд</h3>
-                        <div class="content__info viewing__info">
-                            <p class="content__headline viewing__title">Необхідне оцінювання вашого стану.</p>
-                            <p class="content__text">Фізичний огляд є важливою складовою будь-якого медичного обстеження. Він дозволяє лікарям отримати об'єктивну інформацію про ваш стан здоров'я, фізичні симптоми та показники ваших систем органів.</p>
-                        </div>
-                    </div>
-                </div>
             </section>
             <section class="tests">
                 <div class="container">
@@ -152,14 +109,15 @@
                             <li class="tests__list-item">Берлінський опитувальник для виявлення апное сну</li>
                             <li class="tests__list-item">Епвортська шкала сонливості</li>
                         </ul>
+                        <button class="tests__button">Пройти опитувальник</button>
                     </div>
                     <div class="tests__note">
                         <div class="tests__note-info">
-                            <p class="tests__note-text">Для комплексної оцінки ступеня ризику наявності апное уві сні на первинній консультації пацієнта зі скаргами на хропіння ми склали спеціальний опитувальник, що включає:</p>
+                            <p class="tests__note-text">Для <span class="main-words">комплексної оцінки</span> ступеня ризику наявності апное уві сні на первинній консультації пацієнта зі скаргами на хропіння ми склали <span class="main-words">спеціальний опитувальник</span>, що включає:</p>
                             <ul class="tests__note-list">
-                                <li class="tests__note-item">провідних скарг, характерних для СОАС;</li>
-                                <li class="tests__note-item">наявність коморбідних станів для СОАС;</li>
-                                <li class="tests__note-item">Епвортську шкалу сонливості та перелічені вище тести на визначення ризику наявності СОАС.</li>
+                                <li class="tests__note-item"><span class="main-words">оцінку</span> провідних скарг, характерних для СОАС;</li>
+                                <li class="tests__note-item"><span class="main-words">наявність</span> коморбідних станів для СОАС;</li>
+                                <li class="tests__note-item">Епвортську шкалу сонливості та <span class="main-words">перелічені вище тести</span> на визначення ризику наявності СОАС.</li>
                             </ul>
                         </div>
                     </div>
@@ -169,14 +127,19 @@
                 <div class="container">
                     <div class="content__inner sleependoscopy__inner">
                         <h3 class="subtitle sleependoscopy__subtitle">Сліпендоскопія</h3>
-                        <img class="sleependoscopy__img" src="images/sleependoscopy_img.png" alt="Сліпендоскопія">
+                        <div class="sleependoscopy__definition">
+                            <p class="sleependoscopy__definition-text">
+                                <span class="sleependoscopy__definition-title">Медикаментозна ендоскопія сну (DISE).</span> Діагностичний інструмент для оцінки верхніх дихальних шляхів у пацієнтів із хропінням і обструктивним апное уві сні в умовах, що імітують природний сон.
+                            </p>
+                            <img class="sleependoscopy__img" src="images/sleependoscopy_img.png" alt="Сліпендоскопія">
+                        </div>
                         <div class="content__info sleependoscopy__info">
                             <p class="content__headline sleependoscopy__title">Переваги сліпендоскопії:</p>
                             <ul class="sleependoscopy__list">
-                                <li class="sleependoscopy__list-item">динамічна оцінка сну</li>
-                                <li class="sleependoscopy__list-item">пряма візуалізація локалізації обструкції</li>
-                                <li class="sleependoscopy__list-item">точне визначення структур, які є причиною звуження верхніх дихальних шляхів, що дозволяє вибрати оптимальну тактику хірургічного втручання</li>
-                                <li class="sleependoscopy__list-item">оцінка можливості застосування консервативних методів лікування</li>
+                                <li class="sleependoscopy__list-item sleependoscopy__list-item--chart">динамічна оцінка сну</li>
+                                <li class="sleependoscopy__list-item sleependoscopy__list-item--desktop">пряма візуалізація локалізації обструкції</li>
+                                <li class="sleependoscopy__list-item sleependoscopy__list-item--search">точне визначення структур, які є причиною звуження верхніх дихальних шляхів, що дозволяє вибрати оптимальну тактику хірургічного втручання</li>
+                                <li class="sleependoscopy__list-item sleependoscopy__list-item--date">оцінка можливості застосування консервативних методів лікування</li>
                             </ul>
                         </div>
                     </div>
@@ -205,7 +168,7 @@
                                 <div class="methods__list-content">
                                     <img class="methods__img" src="images/polysomnography.svg" alt="Полісомнографія">
                                     <h5 class="methods__list-name methods__list-name--3">Полісомнографія</h5>
-                                    <p class="methods__list-text methods__list-text--3">ПСГ є «золотим стандартом» інструментальної діагностики СОАС та інших порушень сну. Може проводитись у сомнологічному центрі під контролем медичного персоналу (стаціонарна полісомнографія) або в амбулаторних умовах (мобільна полісомнографія).</p>
+                                    <p class="methods__list-text methods__list-text--3">ПСГ є одним із методів інструментальної діагностики СОАС та інших порушень сну. Може проводитись у сомнологічному центрі під контролем медичного персоналу (стаціонарна полісомнографія) або в амбулаторних умовах (мобільна полісомнографія).</p>
                                 </div>
                             </div>
                         </div>
@@ -239,16 +202,10 @@
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__info">
-                        <a class="footer__logo" href="index.html">
-                            <img class="logo footer__logo-img" src="images/footer__logo.png" alt="Лого міцний сон">
-                        </a>
                         <nav class="menu footer__menu">
                             <ul class="menu__list footer__menu-list">
                                 <li class="mune__list-item">
                                     <a class="menu__list-link footer__menu-link" href="index.html">Про нас</a>
-                                </li>
-                                <li class="mune__list-item">
-                                    <a class="menu__list-link footer__menu-link" href="doctors.html">Лікарі</a>
                                 </li>
                                 <li class="mune__list-item">
                                     <a class="menu__list-link footer__menu-link" href="diagnostic.html">Діагностика</a>

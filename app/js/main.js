@@ -128,60 +128,6 @@ $(function () {
           }
         ]
       });
-      $('.team__list').slick({
-        slidesToShow: 3,
-        mobileFirst: true,
-        slidesToScroll: 1,
-        infinite: false,
-        arrows: false,
-        rows: 0,
-        dots: true,
-        responsive: [
-          {
-            breakpoint: 319,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              variableWidth: true,
-              centerMode: true
-            }
-          },
-          {
-            breakpoint: 400,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              variableWidth: true,
-              centerMode: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1.5,
-              slidesToScroll: 1,
-              variableWidth: true,
-              centerMode: true
-            }
-          },
-          {
-            breakpoint: 800,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              variableWidth: true,
-            }
-          },
-          {
-            breakpoint: 1260,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-            }
-          }
-        ]
-      });
-
       $('.methods__list').slick({
         slidesToShow: 3,
         mobileFirst: true,
