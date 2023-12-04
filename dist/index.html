@@ -18,9 +18,6 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a class="header__logo" href="index.html">
-                    <img class="logo header__logo-img" src="images/header__logo.png" alt="Лого міцний сон">
-                </a>
                 <nav class="menu header__menu">
                     <button class="menu__btn">
                         <span class="btn-close btn-close__top"></span>
@@ -30,18 +27,27 @@
                         <span class="btn-close btn-close__bottom"></span>
                     </button>
                     <ul class="menu__list header__menu-list">
-                        <li class="mune__list-item header__menu-item">
+                        <li class="menu__list-item header__menu-item">
                             <a class="menu__list-link header__menu-link menu__list-link--active" href="index.html">Про нас</a>
                         </li>
-                        <li class="mune__list-item header__menu-item">
-                            <a class="menu__list-link header__menu-link" href="doctors.html">Лікарі</a>
-                        </li>
-                        <li class="mune__list-item header__menu-item">
+                        <li class="menu__list-item header__menu-item">
                             <a class="menu__list-link header__menu-link" href="diagnostic.html">Діагностика</a>
                         </li>
-                        <li class="mune__list-item header__menu-item">
-                            <a class="menu__list-link header__menu-link" href="treatment.html">Лікування</a>
+                        <li class="menu__list-item header__menu-item">
+                            <a class="menu__list-link header__menu-link" href="#">Лікування</a>
+                            <ul class="menu__treatment-list">
+                                <li class="menu__treatment-item">
+                                    <a class="menu__treatment-link" href="prevention.html">Загальнопрофілактичні заходи</a>
+                                </li>
+                                <li class="menu__treatment-item">
+                                    <a class="menu__treatment-link" href="surgery.html">Хірургічне лікування</a>
+                                </li>
+                                <li class="menu__treatment-item">
+                                    <a class="menu__treatment-link" href="cipap.html">СІПАП-терапія</a>
+                                </li>
+                            </ul>
                         </li>
+                        
                     </ul>
                 </nav>
                 <label class="main-button header__button">
@@ -66,187 +72,166 @@
         </div>
     </header>
     <main>
-      <section class="intro">
-          <div class="container">
+        <section class="intro">
+            <div class="container">
                 <div class="intro__inner">
-                    <h1 class="intro__title"><span class="main-words">Волинський</span> центр діагностики та <span class="main-words">лікування хропіння</span> та синдрому обструктивного <span class="main-words">апное сну</span> (СОАС)</h1>
+                    <h1 class="intro__title"><span class="main-words">Волинський</span> центр діагностики та <span class="main-words">лікування хропіння</span> та синдрому обструктивного <span class="main-words">апное</span> уві сні <span class="main-words">(СОАС)</span></h1>
                     <img class="intro__img" src="images/intro__img.png" alt="Лікар та послуги що надає">
-                    <p class="intro__text">працює над забезпеченням наших пацієнтів індивідуальним, високоефективним та безпечним лікуванням. Ми віримо, що кожен заслуговує на якісний сон і здоров'я, і ми готові допомогти вам у цьому.</p>
+                    <p class="intro__text">працює на базі оториноларингологічного відділення у складі КП <span class="main-words">“Волинська обласна клінічна лікарня”</span> ВОЛ.</p>
+                </div>
             </div>
-          </div>
-      </section>
-      <section class="statistics">
-          <div class="container">
-              <div class="statistics__inner">
-                  <h2 class="statistics__title">Майже щоночі хропінням страждають близько</h3>
-                  <div class="percent">
-                      <div class="percent__item">
-                          <p class="percent__item-num">40%</p>
-                          <p class="percent__item-title">Чоловіків</p>
-                      </div>
-                      <div class="percent__item">
-                          <p class="percent__item-num">24%</p>
-                          <p class="percent__item-title">Жінок</p>
-                      </div>
-                      <div class="percent__item">
-                          <p class="percent__item-num">10-12%</p>
-                          <p class="percent__item-title">Дітей</p>
-                      </div>
-                  </div>
-                  <div class="statistics__note">
-                      <p class="statistics__note-info">
-                          З медичної точки зору неускладнене хропіння <span class="main-words">не несе загрози здоров'ю</span>, проте спричиняє серйозні соціальні проблеми (<span class="main-words">порушення сімейної гармонії</span>, аж до розлучення), і є провісником розвитку синдрому <span class="main-words">обструктивного апное сну</span> (СОАС), а також часто поєднується зі збільшенням ризику <span class="main-words">розвитку гіпертонії</span> та появи прееклампсії (<span class="main-words">збільшення АТ</span> у вагітних) у вагітних.
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <section class="symptoms">
-          <div class="container">
-              <div class="symptoms__inner">
-                  <div class="symptoms__info">
-                      <p class="subtitle symptoms__subtitle">Скарги пацієнта</p>
-                      <h3 class="title symptoms__title">Основні клінічні симптоми, характерні для СОАС у дорослих:​</h3>
-                      <p class="symptoms__text">Розуміння симптомів є важливим етапом у процесі діагностики та управління вашим здоров'ям. Іноді симптоми можуть свідчити про серйозні захворювання, які вимагають негайного втручання. Інші симптоми можуть бути попередженням та надавати можливість запобігти подальшим ускладненням.</p>
-                  </div>
-                  <ul class="symptoms__list">
-                      <li class="symptoms__list-item symptoms__list-item--snore">Хропіння (95%)</li>
-                      <li class="symptoms__list-item symptoms__list-item--breath">Скарги на зупинки дихання уві сні за словами оточуючих.</li>
-                      <li class="symptoms__list-item symptoms__list-item--sleep">Неспокійний сон, що не приносить відчуття відпочинку</li>
-                      <li class="symptoms__list-item symptoms__list-item--sleepiness">Денна сонливість</li>
-                      <li class="symptoms__list-item symptoms__list-item--toilet">Прискорене нічне сечовипускання</li>
-                      <li class="symptoms__list-item symptoms__list-item--belch">Відрижка та печія в нічний час</li>
-                  </ul>
-              </div>
-          </div>
-      </section>
-      <section class="diagnostic">
-          <div class="container">
-              <div class="diagnostic__inner">
-                  <div class="diagnostic__content">
-                      <h3 class="diagnostic__title">Діагностика</h3>
-                      <p class="diagnostic__text">Ми пропонує ретельну та високопрофесійну діагностику, яка є ключовим етапом  щоб розкрити корені проблем і надати нашим пацієнтам інформацію щодо їхнього стану та оптимального шляху лікування</p>
-                  </div>
-                  <div class="cards diagnostic__list">
-                      <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="images/symptoms-icon.svg" alt="Іконка з листом скарг пацієнта">
-                          <p class="cards__item-name diagnostic__item-name">Скарги пацієнта</p>
-                      </div>
-                      <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="images/viewing-icon.svg" alt="Іконга фізичного огляду пацієнта">
-                          <p class="cards__item-name diagnostic__item-name">Фізичний огляд</p>
-                      </div>
-                      <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="images/test-icon.svg" alt="Іконка тест">
-                          <p class="cards__item-name diagnostic__item-name">Тести на ризик наявності СОАС</p>
-                      </div>
-                      <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="images/diadnostic-icon.svg" alt="Іконка інструментальної діагностики">
-                          <p class="cards__item-name diagnostic__item-name">Інструментальна діагностика</p>
-                      </div>
-                      <div class="cards__item diagnostic__item">
-                          <img class="cards__item-img diagnostic__item-img" src="images/sleependoscopy-icon.svg" alt="Іконка сліпендоскопії">
-                          <p class="cards__item-name diagnostic__item-name">Сліпендоскопія</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <section class="treatment">
-          <div class="container">
-              <div class="treatment__inner">
-                  <h3 class="treatment__title">Лікування</h3>
-                  <p class="treatment__text">Наш центр практикує ефективні методи лікування хропіння, включаючи:</p>
-                  <div class="treatment__list">
-                      <div class="treatment__list-item">
-                          <img class="treatment__item-img" src="images/cipap.jpg" alt="СІПАП терапія">
-                          <p class="treatment__item-name">СІПАП терапія</p>
-                      </div>
-                      <div class="treatment__list-item">
-                          <img class="treatment__item-img" src="images/prevention.jpg" alt="Лікар що призначає лікування пацієнтові">
-                          <p class="treatment__item-name">Загальнопрофілактичні заходи</p>
-                      </div>
-                      <div class="treatment__list-item">
-                          <img class="treatment__item-img" src="images/surgery.jpg" alt="Лікарі проводять хірургічне лікування">
-                          <p class="treatment__item-name">Хірургічне лікування</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <section class="team">
-          <div class="container">
-              <div class="team__inner">
-                <h3 class="team__title">Наші лікарі</h3>
-                  <p class="team__text"></p>
-                  <div class="team__list">
-                      <div class="team__list-item">
-                        <div class="team__image-box">
-                            <img class="team__item-img" src="images/team-doctor__1.png" alt="Фото лікаря">
+            <div class="intro__note">
+                <div class="container">
+                    <h5 class="intro__note-title">Центр забезпечує:</h5>
+                    <p class="intro__note-text">надання висококваліфікованої  спеціалзованої та консультативної допомоги хворим з хропінням та синдромом обструктивного опноє уві сні (СОАС)</p>
+                </div>
+            </div>
+        </section>
+        <section class="statistics">
+            <div class="container">
+                <div class="statistics__inner">
+                    <h2 class="statistics__title">Майже щоночі хропінням страждають близько</h3>
+                    <div class="percent">
+                        <div class="percent__item">
+                            <p class="percent__item-num">40%</p>
+                            <p class="percent__item-title">Чоловіків</p>
                         </div>
-                          <p class="team__item-name">Щурук Георгій Зіновійович</p>
-                          <p class="team__item-specialty">Отоларинголог</p>
-                          <p class="team__item-text">Володіє сучасними методами діагностики і лікування ЛОР-хворих. Володіє технікою всіх типових і атипових ЛОР-операцій.</p>
-                      </div>
-                      <div class="team__list-item">
-                        <div class="team__image-box">
-                            <img class="team__item-img" src="images/team-doctor__2.png" alt="Фото лікаря">
+                        <div class="percent__item">
+                            <p class="percent__item-num">24%</p>
+                            <p class="percent__item-title">Жінок</p>
                         </div>
-                          <p class="team__item-name">Щурук Антон Георгійович</p>
-                          <p class="team__item-specialty">Отоларинголог</p>
-                          <p class="team__item-text">Володіє сучасними методами діагностики та лікування СОАС та синдрому хропіння.</p>
-                          <p>Володіє технікою всіх типових і атипових ЛОР-операцій.</p>
-                      </div>
-                      <div class="team__list-item">
-                          <img class="team__item-img" src="images/team-doctor__3.png" alt="Фото лікаря">
-                          <p class="team__item-name">Щурук Олександр Зіновійович</p>
-                          <p class="team__item-specialty">Отоларинголог</p>
-                          <p class="team__item-text">Висококваліфікований лікар з багаторічним досвідом. Активно підвищує свій професійний рівень через участь у міжнародних конференціях і стажуваннях</p>
-                      </div>
-                  </div>
-                  <label class="main-button">
-                    <span class="main-button__title">консультація лікаря</span>
-                    <input class="main-button__input" type="checkbox">
-                    <ul class="main-button__list">
-                        <li class="main-button__item">
-                            <a class="main-button__link" href="https://t.me/anton240299">Telegram</a>
-                        </li>
-                        <li class="main-button__item">
-                            <a class="main-button__link" href="viber://chat?number=%2B380509991792">Viber</a>
-                        </li>
-                        <li class="main-button__item">
-                            <a class="main-button__link" href="tel:+380509991792">+380509991792</a>
-                        </li>
+                        <div class="percent__item">
+                            <p class="percent__item-num">10-12%</p>
+                            <p class="percent__item-title">Дітей</p>
+                        </div>
+                    </div>
+                    <div class="statistics__note">
+                        <p class="statistics__note-info">
+                            З медичної точки зору неускладнене хропіння <span class="main-words">не несе загрози здоров'ю</span>, проте спричиняє серйозні соціальні проблеми (<span class="main-words">порушення сімейної гармонії</span>, аж до розлучення). В той же час під час хропіння в більшості випадків виникають часті <span class="main-words">зупинки дихання уві сні</span>, що є вкрай небезпечно для здоров’я і навіть <span class="main-words">загрозою для життя</span>. Зупинки дихання уві сні називають синдромом <span class="main-words">обструктивного апное уві сні</span> (СОАС). 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="symptoms">
+            <div class="container">
+                <h3 class="title symptoms__title">Основні клінічні симптоми, характерні для СОАС у дорослих:​</h3>
+                <div class="symptoms__columns">
+                    <ul class="symptoms__list">
+                        <li class="symptoms__list-item symptoms__list-item--snore">Гучне переривчасте хропіння</li>
+                        <li class="symptoms__list-item symptoms__list-item--breath">Скарги на зупинки дихання уві сні за словами оточуючих.</li>
+                        <li class="symptoms__list-item symptoms__list-item--toilet">Прискорене нічне сечовипускання</li>
                     </ul>
-                </label>
-              </div>
-          </div>
-      </section>
-  </main>
-      <footer class="footer">
-          <div class="container">
-              <div class="footer__inner">
-                  <div class="footer__info">
-                      <a class="footer__logo" href="index.html">
-                          <img class="logo footer__logo-img" src="images/footer__logo.png" alt="Лого міцний сон">
-                      </a>
-                      <nav class="menu footer__menu">
-                          <ul class="menu__list footer__menu-list">
-                              <li class="mune__list-item">
-                                  <a class="menu__list-link footer__menu-link" href="index.html">Про нас</a>
-                              </li>
-                              <li class="mune__list-item">
-                                  <a class="menu__list-link footer__menu-link" href="doctors.html">Лікарі</a>
-                              </li>
-                              <li class="mune__list-item">
-                                  <a class="menu__list-link footer__menu-link" href="diagnostic.html">Діагностика</a>
-                              </li>
-                              <li class="mune__list-item">
-                                  <a class="menu__list-link footer__menu-link" href="treatment.html">Лікування</a>
-                              </li>
-                          </ul>
-                      </nav>
-                      <div class="footer__contacts">
+                    <ul class="symptoms__list">
+                        <li class="symptoms__list-item symptoms__list-item--sleepiness">Денна сонливість</li>
+                        <li class="symptoms__list-item symptoms__list-item--sleep">Неспокійний сон, що не приносить відчуття відпочинку</li>
+                        <li class="symptoms__list-item symptoms__list-item--headache">Ранковий головний біль</li>
+                    </ul>
+                    <ul class="symptoms__list">
+                        <li class="symptoms__list-item symptoms__list-item--sweating">Нічна пітливість</li>
+                        <li class="symptoms__list-item symptoms__list-item--chest">Приступи болю в грудній клітці вночі</li>
+                        <li class="symptoms__list-item symptoms__list-item--belch">Відрижка та печія в нічний час</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="diagnostic">
+            <div class="container">
+                <div class="diagnostic__inner">
+                    <div class="diagnostic__content">
+                        <h3 class="diagnostic__title">Діагностика</h3>
+                    </div>
+                    <div class="cards diagnostic__list">
+                        <div class="cards__item diagnostic__item">
+                            <img class="cards__item-img diagnostic__item-img" src="images/symptoms-icon.svg" alt="Іконка з листом скарг пацієнта">
+                            <p class="cards__item-name diagnostic__item-name">Скарги пацієнта</p>
+                        </div>
+                        <div class="cards__item diagnostic__item">
+                            <img class="cards__item-img diagnostic__item-img" src="images/viewing-icon.svg" alt="Іконга фізичного огляду пацієнта">
+                            <p class="cards__item-name diagnostic__item-name">Фізичний огляд</p>
+                        </div>
+                        <div class="cards__item diagnostic__item">
+                            <img class="cards__item-img diagnostic__item-img" src="images/test-icon.svg" alt="Іконка тест">
+                            <p class="cards__item-name diagnostic__item-name">Тести на ризик наявності СОАС</p>
+                        </div>
+                        <div class="cards__item diagnostic__item">
+                            <img class="cards__item-img diagnostic__item-img" src="images/diadnostic-icon.svg" alt="Іконка інструментальної діагностики">
+                            <p class="cards__item-name diagnostic__item-name">Інструментальна діагностика</p>
+                        </div>
+                        <div class="cards__item diagnostic__item">
+                            <img class="cards__item-img diagnostic__item-img" src="images/sleependoscopy-icon.svg" alt="Іконка сліпендоскопії">
+                            <p class="cards__item-name diagnostic__item-name">Сліпендоскопія</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="treatment">
+            <div class="container">
+                <div class="treatment__inner">
+                    <h3 class="treatment__title">Лікування</h3>
+                    <div class="treatment__list">
+                        <div class="treatment__list-item">
+                            <img class="treatment__item-img" src="images/cipap.jpg" alt="СІПАП терапія">
+                            <p class="treatment__item-name">СІПАП терапія</p>
+                        </div>
+                        <div class="treatment__list-item">
+                            <img class="treatment__item-img" src="images/prevention.jpg" alt="Лікар що призначає лікування пацієнтові">
+                            <p class="treatment__item-name">Загальнопрофілактичні заходи</p>
+                        </div>
+                        <div class="treatment__list-item">
+                            <img class="treatment__item-img" src="images/surgery.jpg" alt="Лікарі проводять хірургічне лікування">
+                            <p class="treatment__item-name">Хірургічне лікування</p>
+                        </div>
+                    </div>
+                    <label class="main-button">
+                        <span class="main-button__title">консультація лікаря</span>
+                        <input class="main-button__input" type="checkbox">
+                        <ul class="main-button__list">
+                            <li class="main-button__item">
+                                <a class="main-button__link" href="https://t.me/anton240299">Telegram</a>
+                            </li>
+                            <li class="main-button__item">
+                                <a class="main-button__link" href="viber://chat?number=%2B380509991792">Viber</a>
+                            </li>
+                            <li class="main-button__item">
+                                <a class="main-button__link" href="tel:+380509991792">+380509991792</a>
+                            </li>
+                        </ul>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <nav class="menu footer__menu">
+                        <ul class="menu__list footer__menu-list">
+                            <li class="mune__list-item footer__list-item">
+                                <a class="menu__list-link footer__menu-link" href="index.html">Про нас</a>
+                            </li>
+                            <li class="mune__list-item footer__list-item">
+                                <a class="menu__list-link footer__menu-link" href="diagnostic.html">Діагностика</a>
+                            </li>
+                            <li class="mune__list-item footer__list-item">
+                                <a class="menu__list-link footer__menu-link" href="#">Лікування</a>
+                                <ul class="menu__treatment-list footer__menu-treatment">
+                                    <li class="menu__treatment-item">
+                                        <a class="menu__treatment-link footer__treatment-link" href="prevention.html">Загальнопрофілактичні заходи</a>
+                                    </li>
+                                    <li class="menu__treatment-item">
+                                        <a class="menu__treatment-link footer__treatment-link" href="surgery.html">Хірургічне лікування</a>
+                                    </li>
+                                    <li class="menu__treatment-item">
+                                        <a class="menu__treatment-link footer__treatment-link" href="cipap.html">СІПАП-терапія</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__contacts">
                         <div class="footer__contacts-item">
                             <a class="footer__contacts-tel" href="tel:+380509991792">+380509991792</a>
                         </div>
@@ -257,10 +242,10 @@
                       </div>
                   </div>
                   <div class="copyright">Copyright © 2023 | All Rights Reserved</div>
-              </div>
-          </div>
-      </footer>
-  </div>
+            </div>
+        </div>
+    </footer>
+    </div>
 
 
 
