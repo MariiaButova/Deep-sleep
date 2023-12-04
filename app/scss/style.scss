@@ -962,7 +962,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: (.2fr .7fr);
         grid-auto-flow: dense;
-        column-gap: 30px;
+        column-gap: 60px;
     }
     &__subtitle {
         margin-top: 30px;
@@ -988,7 +988,7 @@
         padding: 20px;
         background-color: #ffffff;
         max-width: 500px;
-        @include adaptiv-value("width", 500, 300, 1);
+        @include adaptiv-value("width", 500, 280, 1);
         border-radius: 20px;
         text-align: justify;
         @include adaptiv-value("font-size", 18, 16, 1);
@@ -1064,7 +1064,7 @@
         content: none;
     }
     &__img {
-        @include adaptiv-value("width", 525, 350, 1);
+        @include adaptiv-value("width", 525, 280, 1);
         position: relative;
         left: 50px;
         top: -20px;
@@ -1204,6 +1204,13 @@
         &__info {
             grid-column: 1/2;
             grid-row: 3 / 4;
+        }
+        &__img {
+            top: 20px;
+            left: 0;
+        }
+        &__definition {
+            place-self: start center;
         }
     }
     .methods {
