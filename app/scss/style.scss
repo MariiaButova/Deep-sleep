@@ -620,6 +620,7 @@
     }
     &__column-title {
         font-size: 28px;
+        @include adaptiv-value("font-size", 28, 20, 1);
         font-weight: 700;
         text-align: center;
         margin-bottom: 25px;
@@ -631,6 +632,7 @@
     }
     &__item {
         font-size: 20px;
+        @include adaptiv-value("font-size", 20, 16, 1);
         font-weight: 600;
         letter-spacing: 0.2px;
         padding-left: 55px;
