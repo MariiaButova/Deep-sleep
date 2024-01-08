@@ -1154,13 +1154,14 @@
         margin-right: 15px;
         background-color: $blue-light;
         border-radius: 24px;
-        @include adaptiv-value("height", 765, 600, 1);
+        @include adaptiv-value("height", 765, 700, 1);
         @include adaptiv-value("width", 400, 280, 1);
     }
     &__list-content{
         @include adaptiv-value("padding-top", 70, 15, 1);
         @include adaptiv-value("padding-left", 40, 5, 1);
         @include adaptiv-value("padding-right", 35, 5, 1);
+        margin-bottom: 10px;
     }
     &__list-name{
         color: $blue;
@@ -1540,7 +1541,6 @@
     &__inner {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
     }
     &__title{
         max-width: 650px;
