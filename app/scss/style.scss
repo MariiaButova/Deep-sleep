@@ -1038,6 +1038,7 @@
     &__title {
         max-width: 515px;
         font-size: 34px;
+        @include adaptiv-value("font-size", 34, 22, 1);
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
