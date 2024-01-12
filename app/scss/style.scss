@@ -453,7 +453,6 @@
 .intro {
     background: linear-gradient(291deg, rgba(0, 74, 173, 0.10) 47.85%, rgba(0, 74, 173, 0.07) 52.97%, rgba(0, 74, 173, 0.04) 63.39%, rgba(0, 74, 173, 0.00) 73.77%);
     margin-bottom: 150px;
-    @include adaptiv-value("margin-bottom", 150, 100, 1);
     &__inner{
        display: grid;
        grid-template-columns: (1.5fr .3fr 1.5fr);
@@ -519,7 +518,7 @@
         font-weight: 700;
         line-height: 46px;
         color: rgba(0, 74, 173, .7);
-        padding-bottom: 65px;
+        padding-bottom: 55px;
         text-align: center;
         @include adaptiv-value("font-size", 36, 21, 1);
         @include adaptiv-value("line-height", 46, 26, 1);
@@ -590,7 +589,7 @@
         @extend %title;
         color: $blue;
         padding-bottom: 60px;
-        @include adaptiv-value("font-size", 35, 20, 1);
+        @include adaptiv-value("font-size", 35, 22, 1);
         @include adaptiv-value("line-height", 57, 22, 1);
     }
     &__columns {
@@ -757,6 +756,7 @@
         @extend %title;
         color: $blue;
         font-size: 40px;
+        @include adaptiv-value("font-size", 40, 22, 1);
         padding-bottom: 40px;
     }
     &__text {
@@ -783,6 +783,7 @@
         @extend %title;
         color: $blue;
         font-size: 40px;
+        @include adaptiv-value("font-size", 40, 22, 1);
         padding-bottom: 40px;
     }
     &__text {
@@ -1648,7 +1649,7 @@
         font-size: 40px;
         font-weight: 700;
         line-height: 57px;
-        @include adaptiv-value("line-height", 57, 24, 1);
+        @include adaptiv-value("line-height", 57, 26, 1);
         @include adaptiv-value("font-size", 40, 21, 1);
         color: $blue;
         margin-bottom: 30px;
