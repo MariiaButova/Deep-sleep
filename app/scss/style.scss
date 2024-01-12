@@ -756,7 +756,7 @@
         @extend %title;
         color: $blue;
         font-size: 40px;
-        @include adaptiv-value("font-size", 40, 26, 1);
+        @include adaptiv-value("font-size", 40, 28, 1);
         padding-bottom: 40px;
     }
     &__text {
@@ -783,7 +783,7 @@
         @extend %title;
         color: $blue;
         font-size: 40px;
-        @include adaptiv-value("font-size", 40, 26, 1);
+        @include adaptiv-value("font-size", 40, 28, 1);
         padding-bottom: 40px;
     }
     &__text {
@@ -873,7 +873,7 @@
         @extend %intro-font;
         font-size: 40px;
         color: $blue;
-        @include adaptiv-value("font-size", 40, 26, 1);
+        @include adaptiv-value("font-size", 40, 28, 1);
         text-align: center;
         padding-bottom: 50px;
     }
